@@ -1,0 +1,139 @@
+(footprint "3670148"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3670148")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "becb3e14-b44f-4238-86aa-887be41a4746")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "3670148"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1698323f-c4ce-4bd6-8b4e-6a73c919af29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdd2c25f-abdc-4d09-819d-5459fe005b03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "786e326f-9a4d-4970-a574-36d7cd0420c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -7.4 -4.45)
+		(end 7.4 -4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82086a0a-0fcb-43ec-9c53-8931e83f0dde")
+	)
+	(fp_line
+		(start -7.4 4.45)
+		(end -7.4 -4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a45930e6-b459-4725-9d68-1228cd4d5afd")
+	)
+	(fp_line
+		(start 7.4 -4.45)
+		(end 7.4 4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "faf0e07f-dc57-4973-8beb-05cc4dc96401")
+	)
+	(fp_line
+		(start 7.4 4.45)
+		(end -7.4 4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2c82648-cb8a-47ce-83f6-4e79f7e71894")
+	)
+	(pad "1" smd roundrect
+		(at -7.25 0)
+		(size 1.5 10.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "06c34258-5cf2-4ffc-b805-753595c20895")
+	)
+	(pad "2" smd roundrect
+		(at 7.25 0)
+		(size 1.5 10.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_left bottom_left)
+		(uuid "1a77edb8-4981-445f-874c-e77f3d5e5393")
+	)
+	(pad "3" smd rect
+		(at 0 -4.3 90)
+		(size 1.5 13)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b02198d-4c25-404b-8d13-3e714f6c1047")
+	)
+	(pad "4" smd rect
+		(at 0 4.3 90)
+		(size 1.5 13)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1002e33d-61a3-46b2-b0dd-10430d5767a7")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\3670148.stp"
+		(offset
+			(xyz 0 0 1.99999997)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

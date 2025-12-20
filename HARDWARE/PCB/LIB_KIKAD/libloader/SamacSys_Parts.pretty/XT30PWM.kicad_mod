@@ -1,0 +1,112 @@
+(footprint "XT30PWM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XT30PW-M")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8bf8f430-2e56-43cb-bb0b-4fa4afbe3e8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT30PWM"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a39eab1e-f2b4-4c5f-b06d-cc92e961b22a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bab4163-12d2-4539-a2fa-efd933e17ce3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf1a951b-68c5-44e6-80de-3481bb18a25b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c4b4a722-17d7-4114-b159-6075d93704ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 5.912)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f891ea58-3f61-4a49-b17b-01bdec442da8")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 5.912)
+		(size 2.55 2.55)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ce4054b-4065-4024-9761-0be0988f637c")
+	)
+	(pad "3" thru_hole circle
+		(at 5.5 -4.088)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7732afcf-0df7-4c98-b3ab-29fbd412d000")
+	)
+	(pad "4" thru_hole circle
+		(at -5.5 -4.088)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "498d8d07-50aa-4b73-b7e6-644e125314ee")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\XT30PW-M.stp"
+		(offset
+			(xyz 0 -1.759999964 2.559999904)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)

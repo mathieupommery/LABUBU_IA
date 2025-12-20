@@ -1,0 +1,92 @@
+(footprint "74438357100"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WE-MAPI_4030")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -0.275 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "07b98bb6-3cec-4b38-b168-19fa22459bb3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "74438357100"
+		(at -0.275 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fe51943c-20dd-4883-9a55-124c7fadc07e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4c164e7-482d-4568-aef2-1059b3a8f009")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3c736e6-5ef8-4f0c-b480-f6a64989586b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.225 -2.2)
+		(end 2.225 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7222893d-b635-4e18-ab29-ac2717e5305a")
+	)
+	(pad "1" smd rect
+		(at -1.18 0)
+		(size 0.97 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f57a31b5-dab4-481e-b28a-47336932cf7f")
+	)
+	(pad "2" smd rect
+		(at 1.18 0)
+		(size 0.97 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e6a20f3d-faf0-4466-b4da-3883be463c6d")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\74438357100.stp"
+		(offset
+			(xyz -0.2700000067 0 3.099999858)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 -180)
+		)
+	)
+)

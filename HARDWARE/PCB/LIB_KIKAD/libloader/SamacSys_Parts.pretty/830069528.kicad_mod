@@ -1,0 +1,144 @@
+(footprint "830069528"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "830069528-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e98cbcb4-d597-4b1d-8f6a-8859081dc850")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "830069528"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7eef26e5-e81f-42c2-a508-360924510345")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0aa2c4d6-5c2c-49ef-ba8f-d97dfaf121c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc01f228-03fb-403b-9e65-96800f3651ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.975 -0.7)
+		(end 0.975 0.725)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4461342e-bac2-41b3-80e3-8097f1a11ce7")
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end 0.8 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bd0d8f0-afaa-400e-966b-60bda58ecccc")
+	)
+	(fp_line
+		(start -0.8 0.6)
+		(end -0.8 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31f752af-6c8f-487a-a0f2-48bcb91a0d65")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6ef52a6-e469-4f33-ab61-122708b2b15b")
+	)
+	(fp_line
+		(start 0.8 0.6)
+		(end -0.8 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48b3b7c5-467f-4b4f-9ebf-7c1ea0ca5987")
+	)
+	(pad "1" smd rect
+		(at -0.55 0.375 90)
+		(size 0.55 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "60ad6aab-903a-4667-bab3-b492f929fa60")
+	)
+	(pad "2" smd rect
+		(at 0.55 0.375 90)
+		(size 0.55 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cce4b9cb-290d-429b-8176-aab7c8875031")
+	)
+	(pad "3" smd rect
+		(at 0.55 -0.375 90)
+		(size 0.55 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ab13046-668f-404a-8900-7506317fe185")
+	)
+	(pad "4" smd rect
+		(at -0.55 -0.375 90)
+		(size 0.55 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "af6023de-3660-41fb-841f-64dce7d5168f")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\830069528.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

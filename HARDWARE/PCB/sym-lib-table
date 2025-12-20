@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Samacsys")(type "KiCad")(uri "${KIPRJMOD}/LIB_KIKAD/libloader/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "INMP441")(type "KiCad")(uri "${KIPRJMOD}/LIB_KIKAD/INMP441/INMP441ACEZ-R7.kicad_sym")(options "")(descr ""))
+)

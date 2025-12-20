@@ -1,0 +1,143 @@
+(footprint "XT60PWM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "XT60PW-M-3")
+	(tags "Power Supply")
+	(property "Reference" "PS**"
+		(at 3.6 7.088 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c1b3f8b-2681-443f-83d2-6fb6d3265768")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "XT60PWM"
+		(at 3.6 7.088 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3bc65aa8-f61a-4be9-9624-f90822dd8de7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "daa376b6-7d29-497c-9898-ad038b78f136")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4709df3-4599-48b6-bda0-1271e4799c08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 -2.7)
+		(end 0 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd93e100-8b33-4c03-a2ed-92be8a497062")
+	)
+	(fp_line
+		(start 0 -2.6)
+		(end 0 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "420bccfa-4b7b-4a40-801e-a050f66cd82c")
+	)
+	(fp_arc
+		(start 0 -2.7)
+		(mid 0.05 -2.65)
+		(end 0 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4f5f6e5-5ef4-4bd3-ba8d-3f848340bc1d")
+	)
+	(fp_arc
+		(start 0 -2.6)
+		(mid -0.05 -2.65)
+		(end 0 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "371495db-347a-4c32-9163-1a5b5bf8225a")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 4.35 4.35)
+		(drill 2.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a2e72f3-2ee8-4fec-85d1-76d2faa38967")
+	)
+	(pad "2" thru_hole circle
+		(at 7.2 0)
+		(size 4.35 4.35)
+		(drill 2.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e61d8930-ad60-48b7-b436-9f777de243b5")
+	)
+	(pad "MH1" thru_hole circle
+		(at -3.15 6)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f6cc17e-5609-4a9b-8ce6-3a4f1896ed8a")
+	)
+	(pad "MH2" thru_hole circle
+		(at 10.35 6)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f334b0a-bcb7-41dd-86f7-7e2afff82c6c")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\XT60PW-M.stp"
+		(offset
+			(xyz 3.599999851 0.6499999664 4.349999839)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

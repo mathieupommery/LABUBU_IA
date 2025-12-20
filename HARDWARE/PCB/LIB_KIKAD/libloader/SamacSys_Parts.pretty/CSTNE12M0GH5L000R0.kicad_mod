@@ -1,0 +1,200 @@
+(footprint "CSTNE12M0GH5L000R0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CSTNE12M0GH5L000R0-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a0b4d9c2-0a68-48d6-9ef1-bd9230cac883")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CSTNE12M0GH5L000R0"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f1fafdcb-0a4a-4879-8b0f-ab78cfe8c360")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca7a8df3-52b7-4256-b129-333aa4c22d1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e668f31e-df38-4c85-b86b-ffc232f5f918")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.65)
+		(end -1.6 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb43962d-86ad-4767-a83b-6d424ef6baf7")
+	)
+	(fp_line
+		(start 1.28 -1.36)
+		(end 1.28 -1.36)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29e57d29-3128-41ce-8701-39c72d682bcb")
+	)
+	(fp_line
+		(start 1.48 -1.36)
+		(end 1.48 -1.36)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8c31d4b-d9c6-4580-9c1c-ef532da08ea9")
+	)
+	(fp_line
+		(start 1.6 -0.65)
+		(end 1.6 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39c5f29b-c972-430e-8afd-c27a3a3d73c1")
+	)
+	(fp_arc
+		(start 1.28 -1.36)
+		(mid 1.38 -1.46)
+		(end 1.48 -1.36)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56e6fccd-89f9-4475-b567-c101f5bc4863")
+	)
+	(fp_arc
+		(start 1.48 -1.36)
+		(mid 1.38 -1.26)
+		(end 1.28 -1.36)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9d2383b-dd80-4812-9410-ff491c5ccde8")
+	)
+	(fp_rect
+		(start -1.8 -1.025)
+		(end 1.8 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ef1312cf-f116-416b-bd5d-40740c7174a5")
+	)
+	(fp_line
+		(start -1.6 -0.65)
+		(end 1.6 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "084864a1-6435-4c86-8a1a-ce7287e5502f")
+	)
+	(fp_line
+		(start -1.6 0.65)
+		(end -1.6 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8cb6f16-e093-4f8d-853c-9db56661c441")
+	)
+	(fp_line
+		(start 1.6 -0.65)
+		(end 1.6 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8383879b-96e9-48d4-9ec8-5d91553e9c60")
+	)
+	(fp_line
+		(start 1.6 0.65)
+		(end -1.6 0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "065efe6c-29df-4410-ab60-293db52ba15f")
+	)
+	(pad "1" smd rect
+		(at 1.2 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b37d2229-a680-49ce-a45f-75370821af0b")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a941c1ca-c131-4828-8a7a-245a89ac5ce0")
+	)
+	(pad "3" smd rect
+		(at -1.2 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a95431c4-3ffe-42ca-898f-3d9c6abc0765")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\CSTNE8M00GH5C000R0.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

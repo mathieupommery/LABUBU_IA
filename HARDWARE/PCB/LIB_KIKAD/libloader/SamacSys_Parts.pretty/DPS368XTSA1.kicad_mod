@@ -1,0 +1,230 @@
+(footprint "DPS368XTSA1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DPS368XTSA1-4")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e8430fd6-6975-4daa-95aa-9ed217151d85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DPS368XTSA1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0af558b7-d824-43aa-b2f1-4132b07f86c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "026203ae-65a6-4dca-894c-8c247d24830f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65c2f888-161d-4be3-96fd-7aeef39ece64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 -1.25)
+		(end 0.4 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11ce7d91-25cf-4742-b2a8-df2d47a01586")
+	)
+	(fp_line
+		(start -0.4 1.25)
+		(end 0.4 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b81da8c6-6371-4f64-aacb-c6ccf70a026d")
+	)
+	(fp_line
+		(start 1.5 -0.975)
+		(end 1.5 -0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a6e80b6-97d6-48dc-9799-032eb1e7fabb")
+	)
+	(fp_line
+		(start 1.6 -0.975)
+		(end 1.6 -0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66ded969-a62a-4b7c-9b90-eaaff8d02f89")
+	)
+	(fp_arc
+		(start 1.5 -0.975)
+		(mid 1.55 -1.025)
+		(end 1.6 -0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a86f1564-9d59-48be-89d2-909fe5b31b6e")
+	)
+	(fp_arc
+		(start 1.6 -0.975)
+		(mid 1.55 -0.925)
+		(end 1.5 -0.975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "360c5527-1a3d-44bd-9c37-cb082b5d7b0f")
+	)
+	(fp_rect
+		(start -1.075 -1.35)
+		(end 1.075 1.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a79a01df-a108-44e8-a931-2f57f91290b1")
+	)
+	(fp_line
+		(start -1 -1.25)
+		(end -1 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dc88be7-5d09-4bc3-9df6-9ab31a0b8c4e")
+	)
+	(fp_line
+		(start -1 1.25)
+		(end 1 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f7f85b29-d21e-4462-9dbe-0223a56f9dd5")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end -1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b651f4aa-d253-4511-99e5-c5bdd16291bf")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b34dcbe9-fdcb-457f-ac7f-bf32bdf71d9f")
+	)
+	(pad "1" smd rect
+		(at 0.725 -0.975 90)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e78f6281-23ff-4983-9f36-b41c7a64ec01")
+	)
+	(pad "2" smd rect
+		(at 0.725 -0.325 90)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "808bd829-45cf-4dad-a7c2-19a8ef982785")
+	)
+	(pad "3" smd rect
+		(at 0.725 0.325 90)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78e693ec-86b2-41e0-a608-2743b3e11bb4")
+	)
+	(pad "4" smd rect
+		(at 0.725 0.975 90)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5a6965b-7cfd-423f-b20c-87b8d2d2814a")
+	)
+	(pad "5" smd rect
+		(at -0.725 0.975 90)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6725437c-4f74-4161-a92e-536d0b5c34b7")
+	)
+	(pad "6" smd rect
+		(at -0.725 0.325 90)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "42c76c90-fc22-465e-9ab2-04ebcc599e9f")
+	)
+	(pad "7" smd rect
+		(at -0.725 -0.325 90)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aacd0e24-753e-4f32-8597-18f2458734c8")
+	)
+	(pad "8" smd rect
+		(at -0.725 -0.975 90)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "005a0ee9-a50d-48a8-b25c-69719abd46fb")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\DPS368XTSA1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,203 @@
+(footprint "USB4110GFA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "USB4110-GF-A-1")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -0.536 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9f770ebb-b2d3-4230-b91d-ea4cfd53ea19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "USB4110GFA"
+		(at 0 -0.536 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "83ad46e9-9ca0-458a-95d8-fc841dbafb4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5400a795-c3e0-4cf8-b453-c541d664bc6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5845d73f-4ae5-4140-94e7-efccf6d8bead")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at -2.89 -2.603)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "43c832ca-742a-4f3e-a254-d97d862f7e14")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.89 -2.603)
+		(size 0.65 0.65)
+		(drill 0.65)
+		(layers "*.Cu" "*.Mask")
+		(uuid "453cc1a8-3f7c-4239-b3c8-f5d50322a061")
+	)
+	(pad "A1" smd rect
+		(at -3.35 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "28ffc23a-d0d3-46a0-b4fd-793d37a984d9")
+	)
+	(pad "A4" smd rect
+		(at -2.55 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "40c05a1f-1c5c-4afe-8e57-cc9f985ae918")
+	)
+	(pad "A5" smd rect
+		(at -1.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2bfdc08c-930c-4090-bf80-b30c25c5baff")
+	)
+	(pad "A6" smd rect
+		(at -0.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e8c4244-8104-4b16-b2d8-25f259af137a")
+	)
+	(pad "A7" smd rect
+		(at 0.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df6978c2-7467-43fd-a187-4295b221d8c4")
+	)
+	(pad "A8" smd rect
+		(at 1.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6711886a-4a0f-44d9-94e5-be1f98a85c72")
+	)
+	(pad "A9" smd rect
+		(at 2.55 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0be3ea6e-4b7d-4d9e-b8fd-c0fefceaa21e")
+	)
+	(pad "A12" smd rect
+		(at 3.35 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a24cad5e-ace8-4ae6-aa40-bdea19a7c8de")
+	)
+	(pad "B1" smd rect
+		(at 3.05 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0adc953a-ac33-4b03-bae9-4fbf19b668a4")
+	)
+	(pad "B4" smd rect
+		(at 2.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c63d732e-960d-4714-ad7e-bfae08955ebb")
+	)
+	(pad "B5" smd rect
+		(at 1.75 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef759dca-8e78-4cf8-8525-21e2deb374aa")
+	)
+	(pad "B6" smd rect
+		(at 0.75 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2852fd5c-2355-4d8b-aeb0-41f9022e7632")
+	)
+	(pad "B7" smd rect
+		(at -0.75 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "53282e97-8250-4745-8f01-b31f9ce5023c")
+	)
+	(pad "B8" smd rect
+		(at -1.75 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d15f57f6-1a8f-4fdb-8f32-90643f0065a8")
+	)
+	(pad "B9" smd rect
+		(at -2.25 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0e3e674e-42e9-46d2-ab62-e4b40b145e80")
+	)
+	(pad "B12" smd rect
+		(at -3.05 -3.678)
+		(size 0.3 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e51582f0-4608-41d0-ac13-a16196141320")
+	)
+	(pad "MP1" smd rect
+		(at -4.82 0.827 90)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ead59fd8-f893-42c5-b412-2fd7e1e3d07b")
+	)
+	(pad "MP2" smd rect
+		(at 4.82 0.827 90)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7196aed-bf40-497b-8346-bd364d720b46")
+	)
+	(pad "MP3" smd rect
+		(at -4.82 -3.103 90)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e7a55c81-66a8-49ab-b4d7-78a5de5c7bd4")
+	)
+	(pad "MP4" smd rect
+		(at 4.82 -3.103 90)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3e8618b0-16b3-4341-953e-c7dbe6fd68fa")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\USB4110-GF-A.stp"
+		(offset
+			(xyz 0 2.599999866 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

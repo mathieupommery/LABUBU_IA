@@ -1,0 +1,525 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ESP32-S3FH4R2
+D RF System on a Chip - SoC SMD IC ESP32-S3FH4R2, dual-core MCU, Wi-Fi 2.4G & BLE 5.0 combo, 4 MB flash and 2 MB PSRAM inside, QFN 56-pin, 7*7 mm
+K
+F 
+$ENDCMP
+#
+$CMP W25Q16JWXHIQ_TR
+D SPIFLASH, 1.8V, 16M-BIT, 4KB UNIFORM SECTOR
+K
+F 
+$ENDCMP
+#
+$CMP LM2775DSGT
+D Charge Pump Switching Regulator IC Positive Fixed 5V 1 Output 200mA 8-WFDFN Exposed Pad
+K
+F http://www.ti.com/lit/ds/symlink/lm2775.pdf
+$ENDCMP
+#
+$CMP LDO40LPU33RY
+D LDO Voltage Regulators POWER MANAGEMENT
+K
+F https://www.st.com/resource/en/datasheet/ldo40l.pdf
+$ENDCMP
+#
+$CMP LTC4065LEDC#TRMPBF
+D Battery Management Standalone 250mA Li-Ion Coin Cell Charger
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4065L-4065LX-4065L-4.1-4065LX-4.1.pdf
+$ENDCMP
+#
+$CMP LFXTAL069527REEL
+D Crystal 40MHz +/-15ppm (Tol) +/-15ppm (Stability) 8pF FUND 100Ohm 4-Pin CSMD T/R
+K
+F https://www.mouser.de/datasheet/2/741/LFXTAL069527Reel-940593.pdf
+$ENDCMP
+#
+$CMP 687108183722
+D Wurth Elektronik WR-FPC Series 0.5mm Pitch 8 Way Horizontal SMT Female FPC Connector, Bottom Contact
+K
+F https://componentsearchengine.com/Datasheets/1/687108183722.pdf
+$ENDCMP
+#
+$CMP 2N7002KQBZ
+D N-Channel 60 V 720mA (Ta) 420mW (Ta), 4.2W (Tc) Surface Mount, Wettable Flank DFN1110D-3
+K
+F https://assets.nexperia.com/documents/data-sheet/2N7002KQB.pdf
+$ENDCMP
+#
+$CMP PCM12SMTR
+D Slide Switches 0.3A SPDT ON-ON
+K
+F https://www.ckswitches.com/media/1424/pcm.pdf
+$ENDCMP
+#
+$CMP 47309-2651
+D 1 Micro SD Detect switch 2.65mm height
+K
+F http://www.molex.com/webdocs/datasheets/pdf/en-us//0473092651_MEMORY_CARD_SOCKET.pdf
+$ENDCMP
+#
+$CMP 824014883
+D ESD Suppressors / TVS Diodes WE-TVS Diode Array 3.3V 0.5pF 8Channel
+K
+F https://www.we-online.com/catalog/datasheet/824014883.pdf
+$ENDCMP
+#
+$CMP 82400274
+D TVS Diode Array WE-TVS 4-Ch+VDD 5V SC70 Wurth Elektronik 82400274, Quad Uni-Directional TVS Diode Array, 6-Pin SC-70
+K
+F https://katalog.we-online.com/pbs/datasheet/82400274.pdf
+$ENDCMP
+#
+$CMP 636101111001
+D RF / Coaxial Connector, UMRF Coaxial, Straight Jack, Surface Mount Vertical, 50 ohm, Brass
+K
+F https://www.we-online.com/components/products/datasheet/636101111001.pdf
+$ENDCMP
+#
+$CMP STR2N2VH5
+D STMICROELECTRONICS - STR2N2VH5 - Power MOSFET, N Channel, 20 V, 2.3 A, 0.025 ohm, SOT-23, Surface Mount
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00068028.pdf
+$ENDCMP
+#
+$CMP STPS5H100AF
+D 100 V, 5 A SOD128Flat Power Schottky Rectifier
+K
+F https://www.st.com/resource/en/datasheet/stps5h100af.pdf
+$ENDCMP
+#
+$CMP 824501601
+D Wurth Elektronik 824501601 Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC
+K
+F https://katalog.we-online.de/pbs/datasheet/824501601.pdf
+$ENDCMP
+#
+$CMP STPS1L20MF
+D 20 V, 1A STmite flat Low Drop Power Schottky Rectifier,IF(AV):1 A,VRRM:20 V,Tj (max):150 C,VF (max):0.37 V.
+K
+F https://www.st.com/resource/en/datasheet/stps1l20mf.pdf
+$ENDCMP
+#
+$CMP DPS368XTSA1
+D Infineon PRESSURE SENSOR
+K
+F https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40
+$ENDCMP
+#
+$CMP STM32G071G8U6
+D STMICROELECTRONICS - STM32G071G8U6 - MCU, 32BIT, 64MHZ
+K
+F https://www.st.com/resource/en/datasheet/stm32g071g8.pdf
+$ENDCMP
+#
+$CMP STG719STR
+D STMICROELECTRONICS - STG719STR - IC, SWITCH, SPDT, SMD
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/10/33/73/59/23/59/49/0b/CD00002039.pdf/files/CD00002039.pdf/jcr:content/translations/en.CD00002039.pdf
+$ENDCMP
+#
+$CMP 830208214709
+D Standard 2 x 1.6 crystal oscillator in a ceramic package
+K
+F https://www.we-online.com/catalog/datasheet/830208214709.pdf
+$ENDCMP
+#
+$CMP NCV7342MW3R2G
+D Compatible with the ISO 11898-2, ISO 11898-5 Standards; High Speed (up to 1 Mbps); VIO Pin on NCV7342-3 Version Allowing Direct Interfacing with 3 V to 5 V Microcontrollers; VSPLIT Pin on NCV7342-0 Version for Bus Common Mode Stabilization; Very Low Current Consumption in Standby Mode with Wake-up via the Bus; Excellent EMS Level Over Full Frequency Range. Very Low EME. Low EME also without CM Choke.; Bus Pins Protected Against >15 kV System ESD Pulses; Transmit Data (TxD) Dominant Time-out Function; Bus Do
+K
+F https://www.onsemi.com/pub/Collateral/NCV7342-D.PDF
+$ENDCMP
+#
+$CMP LMR38025SDRRR
+D  Functional Safety-Capable  Documentation available to aid functional safety system design  Configured for rugged industrial applications  4.2V to 80V input voltage range  2.5A continuous output current  Ultra-low 40A operating quiescent current  200kHz to 2.2MHz adjustable switching frequency  Frequency synchronization to external clock  97% maximum duty cycle  Supports start-up events with prebiased output  +/-1.5% reference voltage tolerance over temperature  Precision enable  
+K
+F https://www.ti.com/lit/ds/symlink/lmr38025.pdf?ts=1711363220060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR38025
+$ENDCMP
+#
+$CMP 74438357100
+D WURTH ELEKTRONIK - 74438357100 - INDUCTOR, SHIELDED, 10UH, 2.7A, 20%
+K
+F https://katalog.we-online.com/pbs/datasheet/74438357100.pdf
+$ENDCMP
+#
+$CMP CSTNE8M00GH5C000R0
+D Resonators 8.0000MHz 33pF SMD CHP Rsntr 0.07% AUTO
+K
+F https://www.murata.com/en-us/products/productdetail.aspx?cate=cgsubResonators&partno=CSTNE8M00GH5C000R0
+$ENDCMP
+#
+$CMP 435151014824
+D Tactile Switches WS-TASV Tact Switch
+K
+F https://componentsearchengine.com/Datasheets/2/435151014824.pdf
+$ENDCMP
+#
+$CMP CHSA3920R0003F
+D Current Sense Resistors - SMD CHS, 3920 SIZE, 10 Watt, 0.3 mohm, AEC-Q
+K
+F https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-chsa-automotive-smd-current-sense-resistor-metal-shunt-data-sheet-elx1223-en.pdf
+$ENDCMP
+#
+$CMP TSC213ICT
+D Current Sense Amplifiers Low / High side bidirectional, zero-drift, current sense amplifiers
+K
+F https://www.st.com/en/amplifiers-and-comparators/tsc213.html
+$ENDCMP
+#
+$CMP ICM-42688-P
+D IMU (Inertial Measurement Unit), 6-Axis, Accelerometer, Gyroscope
+K
+F https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/DS-000347-ICM-42688-P-v1.5.pdf
+$ENDCMP
+#
+$CMP CMT-8503-90-SMT-TR
+D 8.5 mm, 3.6 Vo-p, 90 dB, Surface Mount (SMT), Magnetic Audio Transducer Buzzer
+K
+F https://www.sameskydevices.com/product/resource/cmt-8503-90-smt-tr.pdf
+$ENDCMP
+#
+$CMP 7443320470
+D Wurth WE-HCC Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 4.7 uH +/-20% 15.5A Idc
+K
+F 
+$ENDCMP
+#
+$CMP BAT60JFILM
+D SMALL SIGNAL SCHOTTKY DIODE
+K
+F https://www.mouser.jp/datasheet/2/389/cd00001944-1795661.pdf
+$ENDCMP
+#
+$CMP MPX1D1264L4R7
+D  Metal composite powder 	 Shielded construction, SMD configuration 	 Inductance range from 0.10  100.00 H 	 Operating temperature up to +155C  Low acoustic noise 	 Low magnetic flux leakage
+K
+F https://content.kemet.com/datasheets/KEM_L9012_MPX.pdf
+$ENDCMP
+#
+$CMP MIA-M10Q-00B
+D u-blox M10 GNSS System-in-Package ROM, TCXO, SAW, LNA, 1.8/3V 4.5 x 4.5 mm, S-LGA 53,
+K
+F https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_DataSheet_UBX-22015849.pdf
+$ENDCMP
+#
+$CMP 830107834801
+D Crystals WE-XTAL 32.768kHz 20ppm 1.2 x 1mm LC=6pF
+K
+F 
+$ENDCMP
+#
+$CMP SF14-1582M5UUD2
+D Signal Conditioning SAW FILTER 1582MHz
+K
+F https://componentsearchengine.com/Datasheets/1/SF14-1582M5UUD2.pdf
+$ENDCMP
+#
+$CMP RCLAMP3521ZATFT
+D TVS DIODE 3.5VWM 5V SLP0603P2X3F5V (Typ) Clamp 6A Ipp Tvs Diode Surface Mount SLP0603P2X3F
+K
+F https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/2R000000HTFj/RtolUnnSswHAEeYsM7sjR2dAo9HQRz.z1PGO8KUTcfs
+$ENDCMP
+#
+$CMP 3670087
+D WE-SHC Two-piece Seamless Shielding Cabinet
+K
+F https://www.we-online.com/catalog/datasheet/3670087.pdf
+$ENDCMP
+#
+$CMP 3670108
+D EMI Gaskets, Sheets, Absorbers & Shielding WE-SHC Seemless Cab Frame 10.8mm
+K
+F https://www.we-online.com/components/products/datasheet/3670108.pdf
+$ENDCMP
+#
+$CMP 3670148
+D EMI Gaskets, Sheets, Absorbers & Shielding WE-SHC Seemless Cab Frame 14.8mm
+K
+F https://www.digikey.ph/en/products/detail/w%C3%BCrth-elektronik/3670148/13626062
+$ENDCMP
+#
+$CMP USB4110-GF-A
+D CONN USB 2.0 TYPE-C R/A SMT
+K
+F https://gct.co/files/drawings/usb4110.pdf
+$ENDCMP
+#
+$CMP SM10B-SRSS-TB_LF__SN_
+D JST (JAPAN SOLDERLESS TERMINALS) - SM10B-SRSS-TB(LF)(SN) - HEADER, R/A, 10WAY
+K
+F http://www.jst-mfg.com/product/pdf/eng/eSR.pdf
+$ENDCMP
+#
+$CMP SM08B-SRSS-TB
+D Connector Header Surface Mount, Right Angle 8 position 0.039" (1.00mm)
+K
+F https://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+$ENDCMP
+#
+$CMP 5871024147F
+D 587 SMD LED 2020 pkg w/4 pins, ADDRESSABLE RGB LED, Single Wire, 7" Reel
+K
+F https://s3-us-west-2.amazonaws.com/catsy.557/Dialight_datasheet_587-1024-147F_Addressable_RGB.pdf?fbclid=IwZXh0bgNhZW0CMTEAAR0VgCoIu4oR62abwRj2sLkbcijYxYetJQGm1yw_o3Lou5kWfewV9snqh7o_aem_yOjO7Ezfvt-v_sNljSZ54w
+$ENDCMP
+#
+$CMP LTC2955CDDB-2#TRMPBF
+D Pushbutton On/Off Controller with Automatic Turn-On
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU1/DSASFU10008450.pdf
+$ENDCMP
+#
+$CMP BSS84AKQBZ
+D MOSFET BSS84AKQB/SOT8015/DFN1110D-3
+K
+F https://assets.nexperia.com/documents/data-sheet/BSS84AKQB.pdf
+$ENDCMP
+#
+$CMP ESP32-C6FH4
+D Multiprotocol Modules SMD IC ESP32-C6FH4, RISC-V single-core MCU, 2.4G Wi-Fi 6 & BLE 5.0 combo, 4 MB flash, QFN 32-pin,
+K
+F https://www.mouser.ch/ProductDetail/Espressif-Systems/ESP32-C6FH4?qs=sGAEpiMZZMu3sxpa5v1qriveB5Rxa06Y9iJOmwW58jU%3D
+$ENDCMP
+#
+$CMP PTS845VM20PSMTR4_LFS
+D Tactile Switches 50mA 12VDC, 80gf, Grey Actuator
+K
+F https://www.ckswitches.com/media/3009/pts845.pdf
+$ENDCMP
+#
+$CMP 74439358100
+D Wurth WE-XHMI Series Type 8080 Shielded Wire-wound SMD Inductor with a Iron Core, 10 uH Flat Wire Winding 5.8A Idc
+K
+F http://katalog.we-online.de/pbs/datasheet/74439358100.pdf
+$ENDCMP
+#
+$CMP XT60PW-M
+D Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V
+K
+F https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf
+$ENDCMP
+#
+$CMP LSM6DSV80XTR
+D 6-axis IMU (inertial measurement unit) with high-g accelerometer,  embedded AI, and sensor fusion for wearables and
+K
+F https://www.st.com/resource/en/datasheet/lsm6dsv80x.pdf
+$ENDCMP
+#
+$CMP MAX-M10S-00B
+D GPS Modules u-blox M10 GNSS LCC module, firmware in ROM, SAW filter, LNA
+K
+F https://content.u-blox.com/sites/default/files/MAX-M10S_IntegrationManual_UBX-20053088.pdf
+$ENDCMP
+#
+$CMP EMMC32G-TX29-8AD11
+D eMMC 32GB eMMC 5.1 (HS400) 153B
+K
+F https://www.kingston.com/en/embedded/emmc-embedded-flash
+$ENDCMP
+#
+$CMP HMC5883L-TR
+D HONEYWELL - HMC5883L-TR - IC, DIGITAL COMPASS, 3 AXIS, 16 PIN
+K
+F http://www.farnell.com/datasheets/2156842.pdf
+$ENDCMP
+#
+$CMP LMR51625YFDDCR
+D  Functional Safety-Capable  Documentation available to aid functional safety system design  Configured for rugged industrial applications:  4.3V to 60V input voltage range  2.5A or 3.5A continuous output current  Low operating quiescent current of 29uA  70ns minimum switching on time  400kHz amd 1.1MHz switching frequency  Frequency spread spectrum (PFM variant)  40C to 150C junction temperature range  96% maximum duty cycle  Monotonic start-up with prebiased output  Short-circu
+K
+F https://www.mouser.kr/ProductDetail/Texas-Instruments/LMR51625YFDDCR?qs=efUn273yAhe0Di9PgWnVVg%3D%3D
+$ENDCMP
+#
+$CMP BMP581
+D Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf
+$ENDCMP
+#
+$CMP 36702202
+D WE-SHC Two-piece Seamless Shielding Cabinet
+K
+F https://www.we-online.com/catalog/datasheet/36702202.pdf
+$ENDCMP
+#
+$CMP 74438335033
+D WE-MAPI SMD Shielded Power Inductor, 3015, 3.3uH
+K
+F http://katalog.we-online.de/pbs/datasheet/74438335033.pdf
+$ENDCMP
+#
+$CMP 830069528
+D Crystals WE-XTAL 48.0MHz 15ppm 1.6 x 1.2mm
+K
+F https://www.we-online.com/catalog/datasheet/830069528.pdf
+$ENDCMP
+#
+$CMP SIA527DJ-T1-GE3
+D MOSFET -12V Vds 8V Vgs SC-70 N&P PAIR
+K
+F http://www.vishay.com/docs/64162/sia527dj.pdf
+$ENDCMP
+#
+$CMP NC7WZ07P6X
+D Over-Voltage Tolerant Inputs Facilitate 5V to 3V Translation ; Ultra-Small MicroPak Packages; Proprietay Noise/EMI Reduction Circuitry ; Ultra-High Speed: tPZL 2.3ns (Typical) ; Power Down High Iimpedance Inputs/Outputs ; High IOL Output Drive: +24mA at 3V VCC ; Broad VCC Operating Range: 1.65V to 5.5V
+K
+F https://www.onsemi.com/pub/Collateral/NC7WZ07-D.PDF
+$ENDCMP
+#
+$CMP TS5A3159ADCKR
+D 1 Ohm SPDT Analog Switch 5-V/3.3-V Single Channel 2:1 Multiplexer/Demultiplexer
+K
+F http://www.ti.com/lit/gpn/ts5a3159a
+$ENDCMP
+#
+$CMP MPX1D0840L470
+D KEMET, MPX, Power, 47 uH, 20%, 155C, -55C, 0840(3431), 2.8 A, 226.7 mOhms, 5.7 MHz, 1000, 8.65mm, 8.9mm, 8mm, 8.2mm, 4mm, 4mm
+K
+F https://content.kemet.com/datasheets/KEM_L9012_MPX.pdf
+$ENDCMP
+#
+$CMP W25N01GVZEIT
+D 1Gb QspiNAND Flash 104MHz SON8
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25N01GVZEIT&type=datasheet
+$ENDCMP
+#
+$CMP EMIF06-MSD02N16
+D 6-Line EMI filter&ESD for SD card uQFN16 STMicroelectronics EMIF06-MSD02N16, EMI Filter & ESD Protector
+K
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/a7/86/d3/98/2c/7f/4b/d2/CD00217829.pdf/files/CD00217829.pdf/jcr:content/translations/en.CD00217829.pdf
+$ENDCMP
+#
+$CMP TPS3424A11C13ADRLR
+D Supervisory Circuits Nanopower push-button controller with programmable delay
+K
+F https://www.ti.com/lit/gpn/tps3424
+$ENDCMP
+#
+$CMP STSPIN32G0A2
+D Advanced brushless motor controller with embedded STM32G0 MCU Operating voltage from 6.7 to 45 V temperature range: -40 to +125 C
+K
+F https://www.st.com/resource/en/datasheet/stspin32g0a1.pdf
+$ENDCMP
+#
+$CMP 74438335220
+D Power Inductor (SMD), 22 H, 600 mA, Shielded, 1.6 A, WE-MAPI, 3mm x 3mm x 1.5mm
+K
+F http://katalog.we-online.de/pbs/datasheet/74438335220.pdf
+$ENDCMP
+#
+$CMP STPS0560Z
+D STPS0560Z, Schottky Diode,  0.5A max, 60V, 2-Pin, SOD-123
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001852.pdf
+$ENDCMP
+#
+$CMP DMT6018LDR-7
+D DIODES INC. - DMT6018LDR-7 - Dual MOSFET, N Channel, 60 V, 60 V, 8.8 A, 8.8 A, 0.013 ohm
+K
+F https://www.diodes.com/assets/Datasheets/DMT6018LDR.pdf
+$ENDCMP
+#
+$CMP TLE5012BE3005XUMA1
+D INFINEON - TLE5012BE3005XUMA1 - GMR Angle Sensor, 3V to 5.5V, SOIC-8
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/INFN/INFNS30105/INFNS30105-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0
+$ENDCMP
+#
+$CMP MA330GQ-Z
+D 14-Bit Digital Contactless Angle Sensor with ABZ & UVW Incremental Outputs 16-Pin QFN T/R - Tape and Reel
+K
+F https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA330/document_id/4695/
+$ENDCMP
+#
+$CMP SM06B-GHS-TB_LF__SN_
+D GH 1.25mm header side entry 6 way JST GH Series, 1.25mm Pitch 6 Way Right Angle PCB Header, Solder Termination, 1A
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e4ef010dc292ea31091454f6c0afb63a.pdf
+$ENDCMP
+#
+$CMP SM04B-GHS-TB_LF__SN_
+D JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A
+K
+F http://uk.rs-online.com/web/p/products/7521797
+$ENDCMP
+#
+$CMP SM05B-GHS-TB_LF__SN_
+D JST GH Series, 1.25mm Pitch 5 Way Right Angle PCB Header, Solder Termination, 1A
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e4ef010dc292ea31091454f6c0afb63a.pdf
+$ENDCMP
+#
+$CMP 1050281001
+D CONN CAM SOCKET 32POS GOLD
+K
+F https://www.molex.com/pdm_docs/sd/1050281001_sd.pdf
+$ENDCMP
+#
+$CMP TPSM828214SILR
+D Switching Voltage Regulators 5.5-V input, 1-A step-down module with integrated inductor in 2 x 2.5 x 1.1-mm SIP package
+K
+F https://www.ti.com/lit/ds/symlink/tpsm82821.pdf
+$ENDCMP
+#
+$CMP KXT341LHS
+D Keypad Switch, 1 Switches, SPST, Momentary-tactile, 0.02A, 15VDC, 3.92N, Solder Terminal, Surface Mount-straight
+K
+F https://www.ckswitches.com/media/1465/kxt3.pdf
+$ENDCMP
+#
+$CMP MAX98357AETE+
+D MAXIM INTEGRATED PRODUCTS - MAX98357AETE+ - AMPLIFIER, CLASS-D, 1-CH, 3.2W, TQFN-16
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX98357A-MAX98357B.pdf
+$ENDCMP
+#
+$CMP ADXL343BCCZ-RL
+D Accelerometer X, Y, Z Axis +/-2g, 4g, 8g, 16g 0.05Hz ~ 1.6kHz 14-LGA (3x5)
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL343.pdf
+$ENDCMP
+#
+$CMP XT30PW-M
+D 30A Low Temperature Rise Fire Retardant Plug
+K
+F https://www.tme.eu/sl/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
+$ENDCMP
+#
+$CMP SQS401EN-T1_BE3
+D MOSFET P-CHANNEL 40V (D-S)
+K
+F https://www.vishay.com/doc?65529
+$ENDCMP
+#
+$CMP SM02B-GHS-TB_LF__SN_
+D GH 1.25mm header side entry 2 way JST GH Series, 1.25mm Pitch 2 Way Shrouded Right Angle PCB Header, Surface Mount, Solder Termination
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/e4ef010dc292ea31091454f6c0afb63a.pdf
+$ENDCMP
+#
+$CMP SM12B-SRSS-TB_LF__SN_
+D Connector Header Surface Mount, Right Angle 12 position 0.039" (1.00mm)
+K
+F https://www.jst-mfg.com/product/pdf/eng/eSH.pdf?67c6d96c290cd
+$ENDCMP
+#
+$CMP XZMDKCBDDG45S-9
+D LED RGB CLEAR 4SMD GW
+K
+F http://www.sunledusa.com/products/spec/XZMDKCBDDG45S-9.pdf
+$ENDCMP
+#
+$CMP BSS138PW
+D MOSFET,n-channel,60V,320mA,0.9ohm,SOT323 NXP BSS138PW N-channel MOSFET Transistor, 320 mA, 60 V, 3-Pin SOT-323
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010002286.pdf
+$ENDCMP
+#
+#End Doc Library

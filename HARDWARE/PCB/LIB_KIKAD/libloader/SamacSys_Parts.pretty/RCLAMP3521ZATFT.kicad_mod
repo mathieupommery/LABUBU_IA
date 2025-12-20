@@ -1,0 +1,174 @@
+(footprint "RCLAMP3521ZATFT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RCLAMP3521ZATFT-3")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "D**"
+		(at 0 0.001 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "18a87907-ba11-46c3-825e-16c85761553c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RCLAMP3521ZATFT"
+		(at 0 0.001 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8db2f62f-4ba3-487a-a9a0-5749cd6f4358")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf66f051-c313-477f-9630-4e2e6874587c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43b102ff-dae6-4ee8-a1bd-4d7799c1f910")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0.8)
+		(end 0 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a565a271-e43e-422e-9087-facaee5b895e")
+	)
+	(fp_line
+		(start 0 0.9)
+		(end 0 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21e23777-ad9c-4a4f-aced-e835d8dbf681")
+	)
+	(fp_arc
+		(start 0 0.8)
+		(mid 0.05 0.85)
+		(end 0 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76432b60-5964-4de1-badf-e90abd454001")
+	)
+	(fp_arc
+		(start 0 0.9)
+		(mid -0.05 0.85)
+		(end 0 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "063f530f-6d9a-47a2-ad33-dc54c596b54a")
+	)
+	(fp_rect
+		(start -0.225 -0.4)
+		(end 0.225 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6f405e48-438c-4507-a59b-daf780c86acf")
+	)
+	(fp_line
+		(start -0.15 -0.3)
+		(end 0.15 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33c12b06-f1b3-4b5c-bd81-87ae70822f85")
+	)
+	(fp_line
+		(start -0.15 0.3)
+		(end -0.15 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b88a69ba-f9d2-4cbd-bf10-97b6ddc6775b")
+	)
+	(fp_line
+		(start 0.15 -0.3)
+		(end 0.15 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4750ebd3-425e-4f4d-81d2-62c988afe5da")
+	)
+	(fp_line
+		(start 0.15 0.3)
+		(end -0.15 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83a85388-5d0f-4a4e-93d0-29bde37141a0")
+	)
+	(pad "1" smd rect
+		(at 0 0.213 90)
+		(size 0.25 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8def0bf-f902-4781-b78e-a6fa205df7d2")
+	)
+	(pad "2" smd rect
+		(at 0 -0.212 90)
+		(size 0.25 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bb8e3ae-2720-4fa2-97cc-09c888deefa0")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\mathi\\Desktop\\libloader\\SamacSys_Parts.3dshapes\\RCLAMP3521ZATFT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
