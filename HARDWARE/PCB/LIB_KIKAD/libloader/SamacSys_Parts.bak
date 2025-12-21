@@ -29867,8 +29867,8 @@
 		)
 		(symbol "pin_header_smt_14pin_0_1"
 			(rectangle
-				(start -6.35 10.16)
-				(end 6.35 -15.24)
+				(start -6.35 6.35)
+				(end 6.35 -16.51)
 				(stroke
 					(width 0)
 					(type default)

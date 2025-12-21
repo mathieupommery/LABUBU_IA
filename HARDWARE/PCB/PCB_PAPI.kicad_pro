@@ -190,6 +190,7 @@
         0.0,
         0.12,
         0.16,
+        0.1693,
         0.3,
         0.4
       ],
@@ -543,10 +544,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber_pcbpapiv2/",
+      "plot": "../gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../3D PCB/PCB_PAPIv2.step",
+      "step": "../3D/labubupcb.step",
       "svg": "",
       "vrml": ""
     },

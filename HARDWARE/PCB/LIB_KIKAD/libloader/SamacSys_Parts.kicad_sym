@@ -21868,6 +21868,43 @@
 					)
 				)
 			)
+			(pin free line
+				(at 10.16 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 10.16 -7.62 90)
+				(length 2.54)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 20.32 0 180)
 				(length 5.08)

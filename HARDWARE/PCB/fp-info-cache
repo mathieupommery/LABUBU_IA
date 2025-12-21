@@ -1,4 +1,4 @@
-26941248172241365
+26943014511150662
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107190,6 +107190,13 @@ Connector
 0
 8
 8
+samacsys2
+SM08BGHSTBLFSN
+SM08B-GHS-TB (LF)(SN)-2
+Connector
+0
+10
+10
 samacsys2
 SOIC127P600X170-9N
 DDA-2
