@@ -47,4 +47,23 @@
 
 ## Result 
 
+Picture of the pcb ( cable on top are soldered because i had not the jst ghs 8pin in stock )
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e5b87701-a43d-44e3-83ab-39c4b8db57b9" width="40%" />
+  <img src="https://github.com/user-attachments/assets/dfe7ec52-2d7b-4920-959d-96cb94206613" width="40%" />
+</p>
+
+View of the pcb with the 1s 150mah lipo battery connected
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f34a2ed3-16d6-47fb-852d-9891cc1dbef1" width="40%" />
+</p>
+
+View of the External power switch (on one side battery is disconnected from ldo and usb is connected to ldo and on other side usb is disconnected from ldo and battery is connected ) 
+and view of the usb port both are hidden in the labubu's feet.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/962e7cf9-644d-4ace-b583-c2c3e7e92327" width="40%" />
+  <img src="https://github.com/user-attachments/assets/2bc4ffe3-c1af-4333-9784-445c148c4a6d" width="40%" />
+</p>
 
