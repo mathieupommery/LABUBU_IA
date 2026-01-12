@@ -1,4 +1,4 @@
-# 🧠 LABUBU IA
+# LABUBU IA
 
 ## Hardware
 
@@ -19,10 +19,10 @@
 
 ### Some view 
 
-<img width="750" height="669" alt="image" src="https://github.com/user-attachments/assets/fd53adc7-e1c8-418c-b5bc-c38ddaeb4619" />
-
-<img width="758" height="795" alt="image" src="https://github.com/user-attachments/assets/a6eadc54-a15e-4646-8f9a-342e1f9b7d83" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fd53adc7-e1c8-418c-b5bc-c38ddaeb4619" width="40%" />
+  <img src="https://github.com/user-attachments/assets/a6eadc54-a15e-4646-8f9a-342e1f9b7d83" width="40%" />
+</p>
 ### 3D pcb case 
 
 <img width="919" height="799" alt="image" src="https://github.com/user-attachments/assets/cf706744-64ca-4314-bd8e-0baaf3899d64" />
