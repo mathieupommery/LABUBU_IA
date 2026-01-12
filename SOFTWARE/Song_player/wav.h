@@ -6,6 +6,12 @@
 
 
 typedef struct {
+  char cmd;           // 'p' = play, 's' = stop, 'l' = loop
+  char path[128];     // chemin du fichier WAV
+} WavCommand;
+
+
+typedef struct {
   uint16_t audioFormat;   // 1 = PCM
   uint16_t channels;      // 1 = mono, 2 = stéréo
   uint32_t sampleRate;    // ex: 44100
@@ -13,6 +19,7 @@ typedef struct {
   uint32_t dataSize;      // taille du chunk "data"
 } WavHeader;
 
+extern QueueHandle_t g_wavCmdQueue;
 extern float g_volume;  
 
 // TODO: remplace ces GPIO par les tiens
@@ -27,12 +34,13 @@ extern float g_volume;
 #define SD_SCK_PIN      12
 #define SD_CS_PIN       10
 
-#define LED_TIM 14
+
+
 
 
 bool initI2S(uint32_t sampleRate);
 bool readWavHeader(File &f, WavHeader &hdr);
 int16_t applyVolume(int16_t sample);
-
+void playWav(const char *path, bool loop);
 
 #endif // AUDIO_H

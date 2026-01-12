@@ -1,6 +1,13 @@
 #include <Arduino.h>
 #include "wav.h"
 #include "driver/i2s.h"   // <-- indispensable pour i2s_config_t, etc.
+#include <SD.h>
+
+QueueHandle_t g_wavCmdQueue = NULL;   // sera créé dans le .ino
+
+const uint32_t LOOP_DELAY_MS = 500;
+
+
 // =======================
 // Appliquer volume logiciel
 // =======================
@@ -148,4 +155,142 @@ bool readWavHeader(File &f, WavHeader &hdr) {
   }
 
   return true;
+}
+
+// =======================
+// Fonction bloquante playWav
+// =======================
+void playWav(const char *path, bool loop) {
+  bool stopRequested = false;
+
+  do {
+    File wavFile = SD.open(path);
+    if (!wavFile) {
+      Serial.print("Impossible d'ouvrir : ");
+      Serial.println(path);
+      return;  // on sort, la tâche décidera quoi faire
+    }
+
+    WavHeader hdr;
+    if (!readWavHeader(wavFile, hdr)) {
+      Serial.println("Header WAV invalide / non supporté.");
+      wavFile.close();
+      return;
+    }
+
+    if (hdr.bitsPerSample != 16) {
+      Serial.println("Seulement 16 bits supportés.");
+      wavFile.close();
+      return;
+    }
+
+    if (hdr.channels != 1 && hdr.channels != 2) {
+      Serial.println("Seulement mono ou stéréo supportés.");
+      wavFile.close();
+      return;
+    }
+
+    if (!initI2S(hdr.sampleRate)) {
+      Serial.println("Erreur init I2S.");
+      wavFile.close();
+      return;
+    }
+
+    // Activer l'ampli juste avant de jouer
+    digitalWrite(AMP_SD_MODE_PIN, HIGH);
+    vTaskDelay(pdMS_TO_TICKS(5));
+
+    const size_t BUF_SIZE = 1024;
+    uint8_t buf[BUF_SIZE];
+
+    Serial.print("Lecture du WAV : ");
+    Serial.println(path);
+
+    size_t bytesRead;
+    while ((bytesRead = wavFile.read(buf, BUF_SIZE)) > 0) {
+
+      // 🔸 Check éventuel STOP venant de la queue
+      if (g_wavCmdQueue != NULL) {
+        WavCommand cmd;
+        if (xQueueReceive(g_wavCmdQueue, &cmd, 0) == pdTRUE) {
+          if (cmd.cmd == 's') {
+            Serial.println("Commande STOP reçue.");
+            stopRequested = true;
+            // on ne traite pas ici d'autres cmd (p/l) → à ajouter si besoin
+          }
+        }
+      }
+
+      if (stopRequested) break;
+
+      if (hdr.channels == 1) {
+        // MONO 16 bits -> stéréo + volume
+        size_t samplesMono = bytesRead / 2;
+        static int16_t tempStereo[BUF_SIZE]; // 1024 int16 -> 2048 bytes max utilisé
+
+        size_t stereoCount = 0;
+        int16_t *src = (int16_t *)buf;
+
+        for (size_t i = 0; i < samplesMono; i++) {
+          int16_t s = applyVolume(src[i]);
+          tempStereo[stereoCount++] = s;
+          tempStereo[stereoCount++] = s;
+        }
+
+        size_t bytesToWrite = stereoCount * 2;
+        size_t written = 0;
+        while (written < bytesToWrite) {
+          size_t w = 0;
+          i2s_write(I2S_NUM_0,
+                    ((uint8_t *)tempStereo) + written,
+                    bytesToWrite - written,
+                    &w,
+                    portMAX_DELAY);
+          written += w;
+        }
+
+      } else {
+        // STÉRÉO 16 bits -> volume sur chaque échantillon
+        size_t samplesStereo = bytesRead / 2;
+        int16_t *st = (int16_t *)buf;
+
+        for (size_t i = 0; i < samplesStereo; i++) {
+          st[i] = applyVolume(st[i]);
+        }
+
+        size_t written = 0;
+        while (written < bytesRead) {
+          size_t w = 0;
+          i2s_write(I2S_NUM_0,
+                    buf + written,
+                    bytesRead - written,
+                    &w,
+                    portMAX_DELAY);
+          written += w;
+        }
+      }
+    }
+
+    wavFile.close();
+    Serial.println("Fin du fichier (ou stop). Fade-out & mute ampli...");
+
+    // Fade-out simple : flusher du silence
+    for (int i = 0; i < 256; i++) {
+      int16_t frame[2] = {0, 0};
+      size_t written;
+      i2s_write(I2S_NUM_0, frame, sizeof(frame), &written, portMAX_DELAY);
+    }
+
+    // Couper l'ampli
+    digitalWrite(AMP_SD_MODE_PIN, LOW);
+
+    if (stopRequested) {
+      break; // ne pas boucler si STOP
+    }
+
+    if (loop) {
+      vTaskDelay(pdMS_TO_TICKS(LOOP_DELAY_MS));
+    }
+
+  } while (loop && !stopRequested);
 }
