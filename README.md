@@ -23,13 +23,12 @@
   <img src="https://github.com/user-attachments/assets/fd53adc7-e1c8-418c-b5bc-c38ddaeb4619" width="40%" />
   <img src="https://github.com/user-attachments/assets/a6eadc54-a15e-4646-8f9a-342e1f9b7d83" width="40%" />
 </p>
+
 ### 3D pcb case 
-
-<img width="919" height="799" alt="image" src="https://github.com/user-attachments/assets/cf706744-64ca-4314-bd8e-0baaf3899d64" />
-
-
-<img width="813" height="774" alt="image" src="https://github.com/user-attachments/assets/9f9a9def-6549-4253-abef-15309e9caa36" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cf706744-64ca-4314-bd8e-0baaf3899d64" width="40%" />
+  <img src="https://github.com/user-attachments/assets/9f9a9def-6549-4253-abef-15309e9caa36" width="40%" />
+</p>
 
 ##  Software
 
