@@ -37,8 +37,10 @@
 ##  Software
 
 ### Audio_Player 
--Scan button at startup: if pressed goes into msc mode and expose sd card on usb to add new song (sd in spi mode too extremely slow)
--then scan all the .wav in the memory and if you short presse toggle the play of the current song and if you long press, play the next song in alphabetical order.
+- Scan button at startup: if pressed goes into msc mode and expose sd card on usb to add new song (sd in spi mode too extremely slow)
+- After that scan all the .wav in the memory
+- then if you short press : toggle the play state of the current song
+- if you long press : play the next song in alphabetical order.
 
 ### IA_assistant
 
