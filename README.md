@@ -1,5 +1,9 @@
 # LABUBU IA
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/959a0107-54a6-4b48-913b-0b7b8dc01773" width="40%" />
+</p>
+
 ## Hardware
 
 ###  Specs
@@ -39,3 +43,8 @@
 ### IA_assistant
 
 -in progress 
+
+
+## Result 
+
+
